@@ -24,7 +24,7 @@
 #import "ZFDownloadManager.h"
 
 static ZFDownloadManager *sharedDownloadManager = nil;
-
+//测试一下
 @interface ZFDownloadManager ()
 
 /** 本地临时文件夹文件的个数 */
