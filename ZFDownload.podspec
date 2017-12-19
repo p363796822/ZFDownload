@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
     s.source       = { :git => 'https://github.com/renzifeng/ZFDownload.git', :tag => s.version.to_s }
     s.source_files = 'ZFDownload/**/*.{h,m}'
     s.framework    = 'UIKit'
-    s.dependency 'ASIHTTPRequest', :git => 'https://github.com/p363796822/asi-http-request.git'
+    s.dependency 'ASIHTTPRequest'
     s.requires_arc = true
 end
