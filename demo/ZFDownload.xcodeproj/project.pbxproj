@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		023115D5FD72D07D1E6294D0 /* libPods-ZFDownloadUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDCFC4F44B16C810012A6AC /* libPods-ZFDownloadUITests.a */; };
 		2DFAD7D15A5277175C6E0B65 /* libPods-ZFDownload.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 529AF0FF8C6667B056C1BC66 /* libPods-ZFDownload.a */; };
 		CC635EB81CEAB00D00B76E2C /* ZFDownloadedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC635EB31CEAB00D00B76E2C /* ZFDownloadedCell.m */; };
 		CC635EB91CEAB00D00B76E2C /* ZFDownloadingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC635EB51CEAB00D00B76E2C /* ZFDownloadingCell.m */; };
@@ -24,6 +25,7 @@
 		CCCB27DC1CE9ABE600280C42 /* ZFDownloadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCB27DB1CE9ABE600280C42 /* ZFDownloadUITests.m */; };
 		CCCB28181CE9B82C00280C42 /* ZFListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCB28171CE9B82C00280C42 /* ZFListCell.m */; };
 		CCCB281E1CE9BA4E00280C42 /* ZFListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCB281D1CE9BA4E00280C42 /* ZFListViewController.m */; };
+		E29468EAD39E30FC6034A0E0 /* libPods-ZFDownloadTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28671CCB72975DCED528C240 /* libPods-ZFDownloadTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +47,13 @@
 
 /* Begin PBXFileReference section */
 		20D5E131984DEC08345D8DF5 /* Pods-ZFDownload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFDownload.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZFDownload/Pods-ZFDownload.debug.xcconfig"; sourceTree = "<group>"; };
+		28671CCB72975DCED528C240 /* libPods-ZFDownloadTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZFDownloadTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A744E4120598344E39067BC /* Pods-ZFDownloadUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFDownloadUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZFDownloadUITests/Pods-ZFDownloadUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		529AF0FF8C6667B056C1BC66 /* libPods-ZFDownload.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZFDownload.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		618D95EF9EEE7D8DA3E7F9E5 /* Pods-ZFDownloadTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFDownloadTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZFDownloadTests/Pods-ZFDownloadTests.release.xcconfig"; sourceTree = "<group>"; };
+		7EDCFC4F44B16C810012A6AC /* libPods-ZFDownloadUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZFDownloadUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8076BC1A5D06D2EDA9EFD673 /* Pods-ZFDownloadUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFDownloadUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZFDownloadUITests/Pods-ZFDownloadUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C584847D67A3600A35D7C44A /* Pods-ZFDownloadTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFDownloadTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZFDownloadTests/Pods-ZFDownloadTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CC635EB21CEAB00D00B76E2C /* ZFDownloadedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFDownloadedCell.h; sourceTree = "<group>"; };
 		CC635EB31CEAB00D00B76E2C /* ZFDownloadedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFDownloadedCell.m; sourceTree = "<group>"; };
 		CC635EB41CEAB00D00B76E2C /* ZFDownloadingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFDownloadingCell.h; sourceTree = "<group>"; };
@@ -95,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E29468EAD39E30FC6034A0E0 /* libPods-ZFDownloadTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				023115D5FD72D07D1E6294D0 /* libPods-ZFDownloadUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +123,10 @@
 			children = (
 				20D5E131984DEC08345D8DF5 /* Pods-ZFDownload.debug.xcconfig */,
 				D050B5FFB9210DD79B5A2134 /* Pods-ZFDownload.release.xcconfig */,
+				C584847D67A3600A35D7C44A /* Pods-ZFDownloadTests.debug.xcconfig */,
+				618D95EF9EEE7D8DA3E7F9E5 /* Pods-ZFDownloadTests.release.xcconfig */,
+				3A744E4120598344E39067BC /* Pods-ZFDownloadUITests.debug.xcconfig */,
+				8076BC1A5D06D2EDA9EFD673 /* Pods-ZFDownloadUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -121,6 +135,8 @@
 			isa = PBXGroup;
 			children = (
 				529AF0FF8C6667B056C1BC66 /* libPods-ZFDownload.a */,
+				28671CCB72975DCED528C240 /* libPods-ZFDownloadTests.a */,
+				7EDCFC4F44B16C810012A6AC /* libPods-ZFDownloadUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -238,12 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCCB27E01CE9ABE600280C42 /* Build configuration list for PBXNativeTarget "ZFDownload" */;
 			buildPhases = (
-				7C5759834935AC69E331BEAE /* Check Pods Manifest.lock */,
+				7C5759834935AC69E331BEAE /* [CP] Check Pods Manifest.lock */,
 				CCCB27AF1CE9ABE500280C42 /* Sources */,
 				CCCB27B01CE9ABE500280C42 /* Frameworks */,
 				CCCB27B11CE9ABE500280C42 /* Resources */,
-				0DA75E360B29EBEAC08F04F8 /* Embed Pods Frameworks */,
-				F16D99F4A194E7290ACFB037 /* Copy Pods Resources */,
+				0DA75E360B29EBEAC08F04F8 /* [CP] Embed Pods Frameworks */,
+				F16D99F4A194E7290ACFB037 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -258,9 +274,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCCB27E31CE9ABE600280C42 /* Build configuration list for PBXNativeTarget "ZFDownloadTests" */;
 			buildPhases = (
+				9EDDB456DE479CE78B977819 /* [CP] Check Pods Manifest.lock */,
 				CCCB27C81CE9ABE600280C42 /* Sources */,
 				CCCB27C91CE9ABE600280C42 /* Frameworks */,
 				CCCB27CA1CE9ABE600280C42 /* Resources */,
+				34918F5EFC24026ECC5382F4 /* [CP] Embed Pods Frameworks */,
+				EA4B1AB4D8778EA244407DBE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -276,9 +295,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCCB27E61CE9ABE600280C42 /* Build configuration list for PBXNativeTarget "ZFDownloadUITests" */;
 			buildPhases = (
+				58487D3F85FA542AD4DA1623 /* [CP] Check Pods Manifest.lock */,
 				CCCB27D31CE9ABE600280C42 /* Sources */,
 				CCCB27D41CE9ABE600280C42 /* Frameworks */,
 				CCCB27D51CE9ABE600280C42 /* Resources */,
+				5C3AF5FB4E44A27A0524D9A8 /* [CP] Embed Pods Frameworks */,
+				CB90B4575C3D58F7CF5D0D18 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -362,14 +384,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0DA75E360B29EBEAC08F04F8 /* Embed Pods Frameworks */ = {
+		0DA75E360B29EBEAC08F04F8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,29 +399,128 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZFDownload/Pods-ZFDownload-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7C5759834935AC69E331BEAE /* Check Pods Manifest.lock */ = {
+		34918F5EFC24026ECC5382F4 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZFDownloadTests/Pods-ZFDownloadTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F16D99F4A194E7290ACFB037 /* Copy Pods Resources */ = {
+		58487D3F85FA542AD4DA1623 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZFDownloadUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C3AF5FB4E44A27A0524D9A8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZFDownloadUITests/Pods-ZFDownloadUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C5759834935AC69E331BEAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZFDownload-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EDDB456DE479CE78B977819 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZFDownloadTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB90B4575C3D58F7CF5D0D18 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZFDownloadUITests/Pods-ZFDownloadUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA4B1AB4D8778EA244407DBE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZFDownloadTests/Pods-ZFDownloadTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F16D99F4A194E7290ACFB037 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -583,6 +704,7 @@
 		};
 		CCCB27E41CE9ABE600280C42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C584847D67A3600A35D7C44A /* Pods-ZFDownloadTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ZFDownloadTests/Info.plist;
@@ -595,6 +717,7 @@
 		};
 		CCCB27E51CE9ABE600280C42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 618D95EF9EEE7D8DA3E7F9E5 /* Pods-ZFDownloadTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ZFDownloadTests/Info.plist;
@@ -607,6 +730,7 @@
 		};
 		CCCB27E71CE9ABE600280C42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A744E4120598344E39067BC /* Pods-ZFDownloadUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ZFDownloadUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -618,6 +742,7 @@
 		};
 		CCCB27E81CE9ABE600280C42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8076BC1A5D06D2EDA9EFD673 /* Pods-ZFDownloadUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ZFDownloadUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

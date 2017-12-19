@@ -4,7 +4,7 @@
 # use_frameworks!
 
 target 'ZFDownload' do
-pod 'ASIHTTPRequest'
+pod 'ASIHTTPRequest', :git => 'https://github.com/p363796822/asi-http-request.git'
 end
 
 target 'ZFDownloadTests' do
